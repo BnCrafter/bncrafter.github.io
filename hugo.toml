@@ -1,0 +1,71 @@
+baseurl      = "https://bncrafter.dev/"
+title        = "BnCrafter"
+languageCode = "en-us"
+theme        = "hello-friend-ng"
+pagination.pagerSize     = 10
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04"
+
+  # Subtitle for home
+  homeSubtitle = ""
+
+  # Set disableReadOtherPosts to true in order to hide the links to other posts.
+  disableReadOtherPosts = false
+
+  # Enable sharing buttons, if you like
+  enableSharingButtons = false
+  
+  # Show a global language switcher in the navigation bar
+  enableGlobalLanguageMenu = false
+
+  # Metadata mostly used in document's head
+  description = "homepage"
+  keywords = "homepage"
+  images = [""]
+
+
+  enableThemeToggle = "true"
+
+[params.footer]
+  trademark = "2026"
+  copyright = "yes"
+
+[[params.social]]
+  name = "github"
+  url = "https://github.com/bncrafter"
+
+
+[taxonomies]
+    category = "blog"
+    tag      = "tags"
+    series   = "series"
+
+[languages]
+  [languages.en]
+    title = "BnCrafter"
+    keywords = ""
+    copyright = "BnCrafter"
+    readOtherPosts = "Read other posts"
+
+  [languages.en.params]
+    subtitle  = ""
+
+    [languages.en.params.logo]
+      logoText = "BnCrafter"
+      logoHomeLink = "/"
+    # or
+    #
+    # path = "/img/your-example-logo.svg"
+    # alt = "Your example logo alt text"
+
+
+  #[[menu.main]]
+  #  identifier  = "projects"
+  #  name        = "Projects"
+  #  url         = "/projects/list"
+  #  hasChildren = false
+
